@@ -1,11 +1,10 @@
 package idv.bsh.spring;
 
 /**
- * Created by lineplus on 2017. 7. 14..
+ * Created by baek on 2017. 7. 16..
  */
-public class Tire {
 
-    String getBrand(){
-        return "Korea Tire";
-    }
+
+public interface Tire {
+    String getBrand();
 }
