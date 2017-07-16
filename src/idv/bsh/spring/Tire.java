@@ -6,6 +6,6 @@ package idv.bsh.spring;
 public class Tire {
 
     String getBrand(){
-        return "Chainese Tire";
+        return "Korea Tire";
     }
 }
