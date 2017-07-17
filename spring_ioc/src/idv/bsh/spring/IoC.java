@@ -21,8 +21,3 @@ public class IoC {
         System.out.println(tireBrand);
     }
 }
-
-
-
-// Tire tire = (Tire)context.getBean("tire");
-//car.setTire(tire);
