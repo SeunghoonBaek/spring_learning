@@ -8,6 +8,8 @@ import org.springframework.aop.framework.ProxyFactoryBean;
 /**
  * Created by lineplus on 2017. 7. 18..
  */
+
+
 public class ProxyFactoryBeanTest {
 
     private ProxyFactoryBean proxyFactoryBean;
@@ -19,11 +21,9 @@ public class ProxyFactoryBeanTest {
         proxyFactoryBean.addAdvice(new ServiceLoggingAdvice());
     }
 
-
     @Test
-    public void PFBTest(){
+    public void proxyFactoryBeanTest(){
         Service service = (Service) proxyFactoryBean.getObject();
         service.begin();
-
     }
 }

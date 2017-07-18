@@ -1,7 +1,11 @@
 
 import idv.bsh.spring.introduction.IsModified;
 import idv.bsh.spring.introduction.IsModifiedAdvisor;
+import idv.bsh.spring.introduction.IsModifiedImpl;
 import idv.bsh.spring.introduction.TargetBean;
+import idv.bsh.spring.proxyfactorybean.Service;
+import idv.bsh.spring.proxyfactorybean.ServiceImpl;
+import idv.bsh.spring.proxyfactorybean.ServiceLoggingAdvice;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.aop.framework.ProxyFactory;
@@ -12,9 +16,7 @@ import org.springframework.aop.framework.ProxyFactoryBean;
  */
 public class IntroductionTest {
 
-
     private ProxyFactoryBean proxyFactoryBean;
-
     private ProxyFactory proxyFactory;
 
     @Before
