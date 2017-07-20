@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: Spring Boot Web Thymeleaf Example
 Implementation-Version: 1.0
-Built-By: lineplus
+Built-By: baek
 Implementation-Vendor-Id: org.springframework.boot
 Created-By: IntelliJ IDEA
 Build-Jdk: 1.8.0_131
